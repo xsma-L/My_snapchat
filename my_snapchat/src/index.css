@@ -1,0 +1,249 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+body {
+  background-color: #354152;
+  color: #7e8ba3;
+  font: 300 1rem/1.5 Helvetica Neue, sans-serif;
+  margin: 0;
+  min-height: 100%;
+}
+
+.align {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.align__item--start {
+  align-self: flex-start;
+}
+.align__item--end {
+  align-self: flex-end;
+}
+
+.site__logo {
+  margin-bottom: 2rem;
+}
+
+
+.form__field {
+  margin-bottom: 1rem;
+}
+.form input {
+  outline: 0;
+  padding: .5rem 1rem;
+}
+.form input[type="email"], .form input[type="password"] {
+  width: 100%;
+}
+
+.grid {
+  margin: 0 auto;
+  max-width: 25rem;
+  width: 100%;
+}
+
+h2 {
+  font-size: 2.75rem;
+  font-weight: 100;
+  margin: 0 0 1rem;
+  text-transform: uppercase;
+}
+
+svg {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  color: #7e8ba3;
+}
+
+.register {
+  box-shadow: 0 0 250px #000;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+input {
+  border-radius: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  width: 90%;
+}
+
+
+/* test */ 
+
+body {
+  background-color: yellow;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*Police*/
+
+/* h2 {
+  margin-bottom: 20px;
+} */
+
+/*Code*/
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.link_inscription {
+  margin-top: 7%;
+  padding: 3px 40px 3px 40px;
+  color: white;
+}
+
+.link_connexion {
+  margin: 10px;
+  padding: 3px 40px 3px 40px;
+  color: white;
+}
+
+.shadow {
+     box-shadow: 0 0 250px #000;
+    -webkit-box-shadow: 0 0 250px #000;
+    -moz-box-shadow: 0 0 250px #000;
+}
+
+.center {
+  background-color: #007bff;
+  width: 100%;
+  text-align: right;
+}
+
+.center2 {
+  background-color: #007bff;
+  width: 100%;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(105, 105, 105);
+}
+
+a {
+  color: white;
+}
+
+.container {
+  position: relative;
+  background-color: white;
+  height: 400px;
+  margin-top: 5%;
+  padding: 40px;
+  width: 30%;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container2 {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%); 
+  background-color: white;
+  height: 600px;
+  margin-top: -2%;
+  padding: 40px;
+  width: 30%;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container2 img{
+  max-width: 100%;
+}
+
+.container img{
+  max-width: 100%;
+}
+
+.lilogo {
+  position: absolute;
+  right: 50px;
+  top: 70px;
+  width: 40px;
+  height: 40px;
+}
+
+.ali {
+  margin-top: 20px;
+  display: flex;
+}
+
+.cercle {
+  height: 130px;
+  width: 140px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cercle2 {
+  padding-top: 50px;
+  margin-top: 10px;
+  height: 140px;
+  width: 140px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.back {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #007bff;
+  left: -50px;
+  top: 400px;
+  height: 100px;
+  width: 100px;
+  z-index: -300;
+}
+
+.indica {
+  color:white;
+  margin-top: 15px;
+  background-color: teal;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#list{
+  border-radius: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#time {
+  border-radius: 25px;
+}
+
+#picture {
+  width: 90%;
+  color: white;
+  background-color:#007bff;
+}
+
+.active {
+  background-color: #007bff;
+  border-radius: 25px;
+  padding: 6px;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 30px;
+}
+
